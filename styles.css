@@ -1,0 +1,234 @@
+* {
+    font-family: Verdana, Tahoma, sans-serif;
+    width: 1280px;
+    align-items: center;
+    text-align: center;
+    line-height: 1;
+}
+
+a {
+    text-decoration: none;
+    color: #247291;
+}
+
+header {
+    background-color: #eef2e2;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    margin: 0;
+    padding: 1rem 0;
+    
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 16px 0;
+    background-color: #f8da5b;
+ }
+ 
+ nav li {
+    display:inline;
+ }
+ 
+ nav li a {
+    padding: 1rem 5rem;
+    text-decoration: none;
+    color: #f5f9ee;
+ }
+
+ nav li a:hover {
+    background-color: #f5f9ee;
+    color: #f8da5b;
+ }
+
+/* Home Page */
+
+ main {
+    background-color: #eef2e2;
+    padding-bottom: 16px;
+    padding-top: none;
+    margin-top: none;
+ }
+
+ .menu {
+    background-color: #247291;
+    color: #f5f9ee;
+    padding: 5px 0;
+    margin: 0;
+ }
+
+ h2, h3 {
+    font-size: 28px;
+ }
+
+ .menu a {
+    color: #f8da5b;
+ }
+
+.menu a:hover {
+    background-color: #f8da5b;
+    color: #247291;
+}
+
+.cater {
+    padding: 16px 0;
+    margin: 10px 0;
+    background-color: #247291;
+    color: #f5f9ee;
+}
+
+.cater p {
+    line-height: 1.5;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 80px 200px auto 40px;
+}
+.ramen, .sushi {
+    width: 400px;
+    height: auto;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.local, .chef {
+    width: 50%;
+}
+
+.local {
+    display: flex;
+    flex-direction: column;
+}
+
+.local p, .chef p {
+    line-height: 1.5;
+}
+
+.chef {
+    display: flex;
+    flex-direction: column;
+}
+
+.local h3, .chef h3 {
+    padding-top: 16px;
+}
+
+
+.footer {
+    background-color: gray;
+    color: white;
+    padding: 2px 0;
+}
+
+.footer p {
+    line-height: 1.5;
+}
+
+/* Contact page */
+
+.tea {
+    width: 500px;
+    height: auto;
+}
+
+
+*{
+	line-height: 1.5;
+	box-sizing: border-box;
+}
+
+
+ form p{
+	max-width: 60ch;
+	margin: 16px auto;
+}
+
+form {
+	width: 500px;
+    height: auto;
+	text-align: center;
+	margin-top: 16px;
+	margin-bottom: 16px;
+	background-color:  #a7bcb9;
+	padding: 16px;
+	color: #363432;
+	border-radius: 4px;
+}
+
+input, label, select, textarea {
+	width: 100%;
+}
+
+label {
+	margin-top: 0;
+	margin-bottom: 4px;
+	margin-left: 16px;
+	font-weight: bold;
+}
+
+input, select, textarea, fieldset {
+	padding: 10px;
+	font-size: 16px;
+	margin-bottom: 24px;
+	border-radius: 4px;
+}
+
+input[type=radio] + label {
+   	cursor: pointer;
+	display: flex;
+	align-items: center;
+}
+
+input[type=radio] {
+   	appearance: none;
+   	margin: 0;
+	padding: 0;
+	border: none;
+	font-size: 0;
+	border-radius: 0;
+}
+
+input[type=radio] + label::before {
+   	content: "\00a0";   /* Non-breaking space */
+	font-size: 2.25em;
+	line-height: 0.65;
+   	border-radius: 50%;
+   	display: inline-block;  
+   	height: 20px;
+   	width: 22px;
+   	text-align: center;
+   	margin-right: 16px;
+   	border: 2px solid white;   /* Push focus shadow away */
+   	background-color: #fff;
+	padding-bottom: 2px;
+}
+
+input[type=radio]:checked + label::before {
+   	content: "\2022";
+   	color: #fff;
+   	background: #24527a;
+}
+
+input[type=radio]:focus{
+	outline: none;
+}
+
+input[type=radio]:focus + label::before {
+   	box-shadow: 2px #24527a;
+}
+
+.flex-contact {
+    display: flex;
+    flex-direction: row;
+}
+
