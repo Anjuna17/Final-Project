@@ -52,8 +52,8 @@ nav ul {
  main {
     background-color: #eef2e2;
     padding-bottom: 16px;
-    padding-top: none;
-    margin-top: none;
+    padding-top: 0;
+    margin-top: 0;
  }
 
  .menu {
@@ -223,9 +223,6 @@ input[type=radio]:focus{
 	outline: none;
 }
 
-input[type=radio]:focus + label::before {
-   	box-shadow: 2px #24527a;
-}
 
 .flex-contact {
     display: flex;
